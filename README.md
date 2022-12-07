@@ -29,9 +29,11 @@
 
 > Here pass the location of the house, number of bed rooms, number of bath rooms and area then the prediction will be displayed
 
+> All the EDA, model training and predicting is clearly shown in the note books found in the `notebooks` folder
+
 ## Author
 
-- GitHub: [@Micky](https://github.com/Micky373)
+- GitHub: [@GitHub](https://github.com/Micky373)
 
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/michaeltamirie/)
 
