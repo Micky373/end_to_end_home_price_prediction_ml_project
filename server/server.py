@@ -3,6 +3,8 @@ import util
 
 app = Flask(__name__)
 
+# A route where we get the location names from our saved artifact columns
+
 @app.route('/get_location_names',methods=['GET'])
 def get_location_names():
 
@@ -13,6 +15,9 @@ def get_location_names():
     response.headers.add('Access-Control-Allow-Origin','*')
 
     return response
+
+# A route for both getting and posting values to be passed
+# We use post to pass the parameters and get method to get the result
 
 @app.route('/predict_home_price',methods=['GET','POST'])
 def predict_home_price():
@@ -30,6 +35,7 @@ def predict_home_price():
 
     return response
 
+# This will enable the load_saved_artifacts and app.run function to be run when the server.py is called
 
 if __name__ == '__main__':
     util.load_saved_artifacts()

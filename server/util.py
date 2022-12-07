@@ -2,9 +2,13 @@ import json
 import pickle
 import numpy as np
 
-__locations = 'Micky'
+# Initializing variables
+
+__locations = None
 __data_columns = None
 __model = None
+
+# Price prediction 
 
 def get_estimated_price(location,sqft,bath,bhk):
 
@@ -25,19 +29,31 @@ def get_estimated_price(location,sqft,bath,bhk):
         return f"Please pass the correct location you passed {location} as a location "
 
 
+# Loading the pickle and json file to update the variables we initialized above
+
 def load_saved_artifacts():
     
     print("Loading saved artifacts....")
+    
+    # Making the variables to be seen out of this script
 
     global __data_columns
     global __locations
     global __model
 
+    # Reading the pickle file and updating the __model variable
+
     with open('./artifacts/house_price_prediction_model.pickle','rb') as f:
         __model = pickle.load(f)
 
+    # Reading the json file and updating the __data_columns as well as the __locations column
+
     with open('./artifacts/columns.json','r') as f:
         __data_columns = json.load(f)['data_columns']
+
+        # We slice the __data_columns because upto 3rd column we have
+        # total_sqft,bhk and bath
+        
         __locations = __data_columns[3:]
 
     print("Loading saved artifcats done!!!")
