@@ -6,7 +6,7 @@
 
 
 
-> I took the dataset from [here]('https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data) and the predicted prices of the houses are in Lakh (Hundred thousands)
+> I took the dataset from [here](https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data) and the predicted prices of the houses are in Lakh (Hundred thousands)
 
 ## Built With
 
