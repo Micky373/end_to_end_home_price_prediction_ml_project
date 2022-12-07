@@ -1,8 +1,6 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# End to end machine learning project for house price prediction 
 
-# Project Name
-
-> One paragraph statement about the project.
+> In this project I have tried to do some EDA on the home price dataset and run different machine learning models to check which model gives the best solution with a good parameter. After getting the best model and saving it then I used Flask for deploying the model.
 
 ![screenshot](./app_screenshot.png)
 
