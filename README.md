@@ -52,7 +52,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Special thanks to [Dhaval Patel](https://www.linkedin.com/in/dhavalsays/), who provided the tutorial for the house prediction model
-- The UI implementation and code done with the help of [this play list](https://youtube.com/playlist?list=PLeo1K3hjS3ut2o1ay5Dqh-r1kq6ZU8W0M) video
+- The UI implementation and code flow done with the help of [this play list](https://youtube.com/playlist?list=PLeo1K3hjS3ut2o1ay5Dqh-r1kq6ZU8W0M) video
 
 ## 📝 License
 
